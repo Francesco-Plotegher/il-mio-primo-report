@@ -1,0 +1,38 @@
+/* sono un commento */
+
+/* selettore con discendenza */
+td img {
+    width: 100px;
+}
+
+/* selettore con discendenza diretta */
+/*
+td > a > img {
+    width: 100 px;
+}
+*/
+img {
+    width: 500 px;
+}
+
+p {
+    color:violet;
+}
+
+/* selettore per i "fratelli" adiacenti */
+p ~ p{
+    color:red;
+}
+
+p + p {
+    text-decoration: underline;
+}
+
+th {
+    background-color: cornflowerblue;
+    color: greenyellow;
+}
+
+.titolo {
+    border:2px solid tomato;
+}
